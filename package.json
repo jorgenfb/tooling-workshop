@@ -1,22 +1,25 @@
 {
   "name": "tooling-workshop",
   "version": "1.0.0",
-  "description": "Example project for tooling workshop",
+  "description": "",
   "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "live-server": "^0.7.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jorgenfb/tooling-workshop.git"
   },
-  "author": "Jørgen Borgesen <jorgen@rocketfarm.no>",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jorgenfb/tooling-workshop/issues"
   },
-  "homepage": "https://github.com/jorgenfb/tooling-workshop",
-  "dependencies": {
-    "gulp": "^3.8.11"
-  }
+  "homepage": "https://github.com/jorgenfb/tooling-workshop"
 }
